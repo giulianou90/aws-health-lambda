@@ -1,0 +1,31 @@
+{
+    "Records": [
+      {
+        "EventSource": "aws:sns",
+        "EventVersion": "1.0",
+        "EventSubscriptionArn": "arn:aws:sns:us-east-1:123456789012:MyTopic:1a6b67ae-81e9-43b4-8d04-1a39f13a2f2d",
+        "Sns": {
+          "Type": "Notification",
+          "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+          "TopicArn": "arn:aws:sns:us-east-1:123456789012:MyTopic",
+          "Subject": "My Subject",
+          "Message": "{\"version\":\"0\",\"id\":\"961b775d-752f-12cd-111e-b51db2f76b7c\",\"detail-type\":\"AWS Health Event\",\"source\":\"aws.health\",\"account\":\"817256483294\",\"time\":\"2024-06-16T13:13:02Z\",\"region\":\"us-east-1\",\"resources\":[\"logs\"],\"detail\":{\"eventArn\":\"arn:aws:health:us-east-1::event/ES/AWS_ES_SERVICE_SOFTWARE_UPDATE_SCHEDULED/AWS_ES_SERVICE_SOFTWARE_UPDATE_SCHEDULED_963cae54-4054-47ec-a955-345a0bf5d779\",\"service\":\"ES\",\"eventTypeCode\":\"AWS_ES_SERVICE_SOFTWARE_UPDATE_SCHEDULED\",\"eventTypeCategory\":\"accountNotification\",\"eventScopeCode\":\"ACCOUNT_SPECIFIC\",\"communicationId\":\"b869afed9fb9d14f845a4f62a10469222b723bca908856209fffa9471ba2ff93-1\",\"startTime\":\"Sun, 16 Jun 2024 13:12:21 GMT\",\"lastUpdatedTime\":\"Sun, 16 Jun 2024 13:12:21 GMT\",\"statusCode\":\"open\",\"eventRegion\":\"us-east-1\",\"eventDescription\":[{\"language\":\"en_US\",\"latestDescription\":\"A new service software update Elasticsearch_6_3_R20240502-P2 has been scheduled for domain logs in Region us-east-1 at 2024-06-19T14:00:00Z. Please see documentation for more information on scheduling software updates: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/service-software.html\"}],\"affectedEntities\":[{\"entityValue\":\"logs\",\"status\":\"IMPAIRED\",\"lastUpdatedTime\":\"Sun, 16 Jun 2024 13:12:21 GMT\"}],\"affectedAccount\":\"817256483294\",\"page\":\"1\",\"totalPages\":\"1\"}}",
+          "Timestamp": "2024-06-16T13:13:02.585Z",
+          "SignatureVersion": "1",
+          "Signature": "EXAMPLE",
+          "SigningCertUrl": "EXAMPLE",
+          "UnsubscribeUrl": "EXAMPLE",
+          "MessageAttributes": {
+            "Test": {
+              "Type": "String",
+              "Value": "TestString"
+            },
+            "TestBinary": {
+              "Type": "Binary",
+              "Value": "TestBinary"
+            }
+          }
+        }
+      }
+    ]
+  }
